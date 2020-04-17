@@ -12,5 +12,3 @@ git reset [commit_SHA]		- commit_SHA should be the first 7 characters of previou
 				  commit's SHA (found with git log); resets to that commit
 				  AKA makes HEAD the commit with specified SHA
 
-
-COMMITTING WITH EXCESS TEXT. SENDING TO GITHUB WILL TEST RESET W SHA
