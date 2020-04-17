@@ -1,6 +1,14 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-}
+TIPS FOR BACKTRACKING:
+
+defn: HEAD commit		- commit that you're currently on
+git show HEAD 			- displays what git log would show for HEAD commit AND
+				  file changes that were committed
+git checkout HEAD file.txt	- restores file.txt in wd to be identical to how it was
+				  when last commit was made
+				  shortcut: git checkout -- file.txt
+git reset HEAD file.txt		- unstages file.txt (does NOT discard changes made to 
+				  file.txt in wd)
+git reset [commit_SHA]		- commit_SHA should be the first 7 characters of previous
+				  commit's SHA (found with git log); resets to that commit
+				  AKA makes HEAD the commit with specified SHA
+
