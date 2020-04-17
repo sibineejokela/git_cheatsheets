@@ -15,7 +15,7 @@ git reset [commit_SHA]		- commit_SHA should be the first 7 characters of previou
 
 
 From GitHub:
-git pull origin master		- pulls from remote master and merges to local
-
-
-Adding text to reset later
+git pull origin master		- pulls from remote master and merges to local;
+				  git pull is git fetch with git merge origin/master
+  git fetch 			
+  git merge origin/master 
