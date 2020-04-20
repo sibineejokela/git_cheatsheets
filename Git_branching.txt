@@ -18,17 +18,4 @@ Remote:
 git merge origin/branch_name	- merge branch_name from remote (GitHub)
 
 
-
-
-MERGE CONFLICT:
-1. Commit on branch and master and try to merge them.
-   
-   Resolve: 
-   Git markings for conflict to be fixed:	
-	<<<<<<< HEAD
-	master version of file
-	=======
-	branch_name version of file
-	>>>>>>> branch_name
-   To resolve conflict, delete unwanted version AND ALL MARKINGS (<<,==,>>)
-   Restage, recommit.
+HERE I WILL DELETE MERGE CONFLICT INFO:
