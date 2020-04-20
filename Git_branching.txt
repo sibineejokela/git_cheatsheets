@@ -15,7 +15,7 @@ git branch -d branch_name	- delete branch_name
 
 Remote:
 git merge origin/branch_name	- merge branch_name from remote (GitHub)
-
+NOTE:				- delete branches remotely under "branches" tab
 
 
 MERGE CONFLICT:
