@@ -13,8 +13,10 @@ git branch -d branch_name	- delete branch_name
 				  NOTE: use -D if branch deleted wasn't merged
 
 
+Remote:
+git merge origin/branch_name	- merge branch_name from remote (GitHub)
 
-ON THE MASTER I DELETED INFO ABOUT THE REMOTE LOL
+
 
 MERGE CONFLICT:
 1. Commit on branch and master and try to merge them.
