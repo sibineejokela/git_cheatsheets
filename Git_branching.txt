@@ -30,3 +30,6 @@ MERGE CONFLICT:
 	>>>>>>> branch_name
    To resolve conflict, delete unwanted version AND ALL MARKINGS (<<,==,>>)
    Restage, recommit.
+
+
+Additional text to test merge. Will delete shortly.
