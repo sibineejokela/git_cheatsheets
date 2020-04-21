@@ -18,14 +18,6 @@ git merge origin/branch_name	- merge branch_name FROM remote (GitHub)
 NOTE:				- delete branches remotely under "branches" tab
 
 
-   Remote Workflow (suggested):
-	1. Create branch locally (git branch branch-1)
-	2. Push local branch to remote (git push origin branch-1)
-	3. Create/submit a pull request (PR) ("New PR" on Github, eg)
-	   This merges branch-1 into the origin/master
-	4. Merge remote master into local master (git fetch origin & get merge origin)
-
-
 ----------------------------
 
 MERGE CONFLICT:
