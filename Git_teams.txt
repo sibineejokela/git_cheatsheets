@@ -15,7 +15,7 @@ git fetch				- bring Git project changes to local copy - remote branch
 					  (will NOT merge changes into local repository - master branch)
 git merge origin/master			- merges changes from origin/master to local master branch 
 git push origin your_branch_name	- push your branch to remote origin 
-					  (where others can review changes)
+					  (where others can review then merge changes)
 
 
 
